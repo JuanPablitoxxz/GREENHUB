@@ -34,7 +34,7 @@ export default function CommunityView({ state, onJoinEvent }: CommunityViewProps
       <header className="mb-14 text-center">
         <span className="text-xs uppercase tracking-[0.2em] text-cyan-400 font-bold block mb-1">Telemetría</span>
         <h1 className="text-5xl md:text-7xl font-display font-extrabold tracking-tight mb-4 text-white">
-          Comunidad <span className="text-emerald-500">Global</span>
+          Comunidad <span className="text-emerald-500">GREEN</span>
         </h1>
         <p className="text-slate-400 max-w-2xl mx-auto text-sm sm:text-base mb-10 font-light">
           Conectando visionarios ecológicos para restaurar el equilibrio de nuestro planeta a través de acciones colectivas descentralizadas.
