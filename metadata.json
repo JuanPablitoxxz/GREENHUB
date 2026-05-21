@@ -1,0 +1,6 @@
+{
+  "name": "GreenHub",
+  "description": "Una plataforma interactiva de eco-tecnología y gamificación para reinventar la gestión de residuos urbanos, realizar un seguimiento de impacto de CO2, organizar eventos comunitarios y canjear recompensas ecológicas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
