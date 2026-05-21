@@ -52,9 +52,9 @@ export default function RewardsView({ state, onRedeemReward }: RewardsViewProps)
           <Sprout className="w-7 h-7" />
         </div>
       );
-      case 'directions_subway': return (
+      case 'award': return (
         <div className={`w-14 h-14 rounded-2xl flex items-center justify-center border ${style}`}>
-          <Train className="w-7 h-7" />
+          <Award className="w-7 h-7" />
         </div>
       );
       case 'eco': return (

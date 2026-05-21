@@ -45,11 +45,11 @@ export const INITIAL_REWARDS: RewardItem[] = [
   },
   {
     id: 'rew-2',
-    title: 'Transporte Público Premium',
-    desc: 'Pase mensual ilimitado para transporte eléctrico urbano. Incluye acceso prioritario y red de carga para micromovilidad.',
+    title: 'Medalla Física de Nivel',
+    desc: 'Canjea tu medalla física oficial de GreenHub de acuerdo a tu nivel actual. Fabricada con materiales 100% reciclados y certificados.',
     cost: 2500,
-    category: 'Movilidad',
-    iconName: 'directions_subway',
+    category: 'Exclusivo',
+    iconName: 'award',
     accentColor: 'cyan',
     image: ''
   },

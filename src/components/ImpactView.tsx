@@ -166,7 +166,7 @@ export default function ImpactView({ state }: ImpactViewProps) {
                 </div>
                 <div>
                   <p className="text-sm font-bold text-white">Eco-Nodo Principal</p>
-                  <p className="text-xs text-slate-500">Madrid Centro • A 0.4 km de distancia</p>
+                  <p className="text-xs text-slate-500">Facatativa Centro • A 0.4 km de distancia</p>
                 </div>
                 {selectedNode === 'principal' && <span className="ml-auto w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />}
               </button>
@@ -185,7 +185,7 @@ export default function ImpactView({ state }: ImpactViewProps) {
                 </div>
                 <div>
                   <p className="text-sm font-bold text-white">Reciclaje Tecnológico</p>
-                  <p className="text-xs text-slate-500">Distrito Norte • A 1.2 km de distancia</p>
+                  <p className="text-xs text-slate-500">Santa rita • A 1.2 km de distancia</p>
                 </div>
                 {selectedNode === 'tecnologico' && <span className="ml-auto w-1.5 h-1.5 rounded-full bg-cyan-400 animate-ping" />}
               </button>

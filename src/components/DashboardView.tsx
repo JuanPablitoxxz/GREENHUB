@@ -159,7 +159,7 @@ export default function DashboardView({ onLaunchClick, onTabChange, recycledKg, 
               </div>
               <h3 className="text-2xl font-display font-bold text-white mb-3">Recolección</h3>
               <p className="text-slate-400 font-light leading-relaxed text-sm">
-                Los contenedores inteligentes rastrean tu depósito en tiempo real usando sensores IoT y visión computacional.
+                Deberás subir registro fotográfico de todo el material depositado para ser analizado y aprobado .
               </p>
             </div>
             <div className="mt-8 overflow-hidden rounded-xl aspect-video glass-panel border border-white/5 relative">
@@ -180,7 +180,7 @@ export default function DashboardView({ onLaunchClick, onTabChange, recycledKg, 
               </div>
               <h3 className="text-2xl font-display font-bold text-white mb-3">Separación</h3>
               <p className="text-slate-400 font-light leading-relaxed text-sm">
-                La clasificación holográfica automatizada garantiza la recuperación del 100% del material con precisión microscópica.
+                La clasificación se llevara viendo y analizando desecho por desecho para garantizar un 90% menos de desperdicio.
               </p>
             </div>
             <div className="mt-8 overflow-hidden rounded-xl aspect-video glass-panel border border-white/5 relative">
@@ -201,7 +201,7 @@ export default function DashboardView({ onLaunchClick, onTabChange, recycledKg, 
               </div>
               <h3 className="text-2xl font-display font-bold text-white mb-3">Recompensa</h3>
               <p className="text-slate-400 font-light leading-relaxed text-sm">
-                Convierte tu impacto en COP para obtener servicios premium, transporte y beneficios comunitarios.
+                Convierte tu impacto en COP para obtener servicios, transporte y beneficios comunitarios.
               </p>
             </div>
             <div className="mt-8 overflow-hidden rounded-xl aspect-video glass-panel border border-white/5 relative">
