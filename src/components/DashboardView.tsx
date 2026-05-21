@@ -63,7 +63,7 @@ export default function DashboardView({ onLaunchClick, onTabChange, recycledKg, 
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl text-slate-400 max-w-2xl mx-auto font-light leading-relaxed">
-            Únete al ecosistema ambiental de próxima generación. Transformamos las acciones sostenibles cotidianas en recompensas premium a través de seguimiento holográfico y tecnología bioluminiscente.
+            Únete al ecosistema ambiental de próxima generación. Transformamos las acciones cotidianas en conjuntos residenciales en recompensas y motivacion.
           </p>
 
           <div className="pt-4 flex flex-col sm:flex-row gap-4 justify-center items-center">
