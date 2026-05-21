@@ -2,17 +2,17 @@ import { AppState, MaterialInfo, LeaderboardEntry, EcoEvent, RewardItem } from '
 
 export const INITIAL_LEADERBOARD: LeaderboardEntry[] = [
   { rank: 1, name: 'Elena Velásquez', location: 'Bogotá, Colombia', pts: 12450 },
-  { rank: 2, name: 'Marcus Thorne', location: 'Berlin, Germany', pts: 11820 },
+  { rank: 2, name: 'Marcus Thorne', location: 'Madrid, Colombia', pts: 11820 },
   { rank: 3, name: 'Sora Kim', location: 'Seoul, S. Korea', pts: 10945 },
-  { rank: 4, name: 'Javier Méndez', location: 'Madrid, Spain', pts: 9210 },
+  { rank: 4, name: 'Javier Méndez', location: 'Facatativa, Colombia', pts: 9210 },
   { rank: 5, name: 'Anya Petrova', location: 'Tallinn, Estonia', pts: 8850 }
 ];
 
 export const INITIAL_EVENTS: EcoEvent[] = [
   {
     id: 'evt-1',
-    title: "Limpieza de Playa 'Ola Verde'",
-    location: 'Costa del Sol, Málaga',
+    title: "Limpieza de rio botello 'Ola Verde'",
+    location: 'Rio botello, Facatativa',
     tag: 'Activo Ahora',
     tagColor: 'bg-emerald-500',
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBQTaHLnpALQRn15n5z4IRistU9MdtYfwZa6IeFad39ygxxobnp-eFA6JNka0oIOjtLNrmeNjEIBviOkL7g8FID8gayU8AChX-J-OKe2RfH_wKc3NTgqabp9YuyjwfK5N9W0qQMlHeY_dSHvu4yYkj1VNOqh1WpcIMbKxvcvFBz2FJOvSbvXZ55EYTDSNzWXJfyiTVueNAXiYkYnx7Tk7jikvY-4Zq0RWQeHTaTYv5PSEfJQCsKBk5awSffHIDmmqvE6gO8HLyeqc0',
@@ -21,8 +21,8 @@ export const INITIAL_EVENTS: EcoEvent[] = [
   },
   {
     id: 'evt-2',
-    title: 'Reciclatón de E-Waste Urban',
-    location: 'Distrito Tecnológico, Madrid',
+    title: 'Reciclatón Centro',
+    location: 'Centro, facatativa',
     tag: 'Mañana',
     tagColor: 'bg-cyan-500',
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCum9SBtQN7hT3Lb02L8-wefRi_WXXYQAryHHYtHMK7JhNPu-ovw6El8mlgv7KnSlXsTwj58Y_thGcmRROLwse1OATin1WcE0BMIBGDtq7SQLikXQ1WkZOfOC8u9rITWQ4NkA7daisY6zmlH2bIuQW846SmLYjz7u_Y185CadsUTr1VqIfUuPRmc0T4sK6E1d0FeGIJdBrbcoH-B4CmVK56DxDxmfaEjlykc8fftycZwwAqyMwU3rUOlkCiVNz10orxGE_XMqGkweU',
@@ -34,8 +34,8 @@ export const INITIAL_EVENTS: EcoEvent[] = [
 export const INITIAL_REWARDS: RewardItem[] = [
   {
     id: 'rew-1',
-    title: 'Siembra de Árboles en la Amazonía',
-    desc: 'Planta un árbol en la Amazonía colombiana bajo tu nombre. Recibe coordenadas GPS y un certificado NFT de impacto ambiental.',
+    title: 'Siembra de Árboles',
+    desc: 'Planta un árbol y recibe un certificado NFT de impacto ambiental.',
     cost: 5000,
     category: 'Mundial',
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBMljaw8qlCTQrfJ4fl6W1Z8MDshjMEQZ3-dLlLr-NWrGVShe-3KDNORG_iBMQQynntW6bdTlLpaXFvNYdXJBS511-FLKITz_8hs8hQUB3qVeHweorKE4K2MDwvu7uiUE4mt1PRtqEJw46LdMYoy0-Lyx82QAMzNqay34POZRM_V0jDLeJbuV4YsrKue41b5nj-7SM4ihgrXVHy1Ujl1WlUqfHsigo4W2_NmHs5FtsZtfWWFEEjZv85g47kag30y9PaApHVSPz8iEc',
@@ -56,8 +56,8 @@ export const INITIAL_REWARDS: RewardItem[] = [
   {
     id: 'rew-3',
     title: 'Descuentos en Marcas Sostenibles',
-    desc: 'Obtén un 40% de descuento en marcas certificadas B-Corp. Válido en indumentaria, tecnología y alimentación orgánica.',
-    cost: 1200,
+    desc: 'Obtén un 40% de descuento en marcas certificadas B-Corp. Válido en indumentaria, tecnología.',
+    cost: 12000,
     category: 'Descuentos',
     iconName: 'eco',
     accentColor: 'purple',
