@@ -31,7 +31,7 @@ export default function ImpactView({ state }: ImpactViewProps) {
     <div className="w-full relative z-10 pt-32 pb-20 px-4 max-w-7xl mx-auto">
       {/* Header */}
       <header className="mb-12 text-center md:text-left">
-        <span className="text-xs uppercase tracking-[0.2em] text-emerald-400 font-bold block mb-1">Mi Rendimiento</span>
+        <span className="text-xs uppercase tracking-[0.2em] text-cyan-400 font-bold block mb-1">Telemetría</span>
         <h1 className="text-5xl md:text-7xl font-display font-extrabold tracking-tight mb-4 text-white">
           Tu <span className="text-emerald-400 glow-text-emerald">Impacto</span>
         </h1>
@@ -49,7 +49,7 @@ export default function ImpactView({ state }: ImpactViewProps) {
             <div className="flex items-center justify-between mb-8">
               <div>
                 <span className="text-xs uppercase tracking-[0.2em] text-emerald-400 font-bold">Métrica Vital</span>
-                <h2 className="text-2xl font-display font-bold mt-1 text-white">CO2 Ahorrado</h2>
+                <h2 className="text-2xl font-display font-bold mt-1 text-white">CO₂ Ahorrado</h2>
               </div>
               <div className="w-12 h-12 bg-emerald-500/10 rounded-xl flex items-center justify-center text-emerald-400 border border-emerald-500/20">
                 <Activity className="w-6 h-6 animate-pulse" />
@@ -119,7 +119,7 @@ export default function ImpactView({ state }: ImpactViewProps) {
             </svg>
             <div className="absolute inset-0 flex flex-col items-center justify-center">
               <span className="text-3xl font-display font-black text-white">{state.separationAccuracy}%</span>
-              <span className="text-[9px] text-cyan-400 uppercase tracking-widest font-bold">Accuracy</span>
+              <span className="text-[9px] text-cyan-400 uppercase tracking-widest font-bold">Precisión</span>
             </div>
           </div>
 

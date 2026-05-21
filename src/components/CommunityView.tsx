@@ -32,7 +32,7 @@ export default function CommunityView({ state, onJoinEvent }: CommunityViewProps
       
       {/* Hero / Global Counter */}
       <header className="mb-14 text-center">
-        <span className="text-xs uppercase tracking-[0.2em] text-cyan-400 font-bold block mb-1">Telemetry</span>
+        <span className="text-xs uppercase tracking-[0.2em] text-cyan-400 font-bold block mb-1">Telemetría</span>
         <h1 className="text-5xl md:text-7xl font-display font-extrabold tracking-tight mb-4 text-white">
           Comunidad <span className="text-emerald-500">Global</span>
         </h1>
@@ -359,7 +359,7 @@ export default function CommunityView({ state, onJoinEvent }: CommunityViewProps
                   Únete a nuestro escuadrón comunitario GreenHub. Recolectamos materiales, clasificamos con alta pureza bajo guía técnica y canjeamos puntos extra de bonificación para todos los participantes que asistan.
                 </p>
                 <p className="text-xs bg-slate-950/60 p-2.5 rounded-lg text-emerald-400 border border-emerald-500/10">
-                  ⚡ ¡Bono de evento! Registro presencial otorga +250 extra EC para tu perfil.
+                  ⚡ ¡Bono de evento! Registro presencial otorga +250 COP extra para tu perfil.
                 </p>
               </div>
 

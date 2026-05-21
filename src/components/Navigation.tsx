@@ -7,10 +7,10 @@ interface NavigationProps {
 
 export default function Navigation({ currentTab, onTabChange, onLaunchClick, userCredits }: NavigationProps) {
   const tabs = [
-    { id: 'dashboard', label: 'Dashboard' },
-    { id: 'impact', label: 'Impact' },
-    { id: 'community', label: 'Community' },
-    { id: 'rewards', label: 'Rewards' }
+    { id: 'dashboard', label: 'Panel' },
+    { id: 'impact', label: 'Impacto' },
+    { id: 'community', label: 'Comunidad' },
+    { id: 'rewards', label: 'Recompensas' }
   ];
 
   return (
@@ -52,14 +52,14 @@ export default function Navigation({ currentTab, onTabChange, onLaunchClick, use
           onClick={() => onTabChange('rewards')}
           className="hidden sm:flex items-center gap-1.5 px-3 py-1 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-bold rounded-lg hover:bg-emerald-500/20 transition-all cursor-pointer"
         >
-          <span>{userCredits.toLocaleString()} EC</span>
+          <span>{userCredits.toLocaleString()} COP</span>
         </button>
 
         <button 
           onClick={onLaunchClick}
           className="bg-emerald-500 text-slate-950 font-bold text-xs md:text-sm px-4 md:px-6 py-2 rounded-full hover:scale-105 active:scale-95 hover:shadow-[0_0_15px_rgba(16,185,129,0.4)] transition-all duration-300 select-none cursor-pointer"
         >
-          Launch GreenHub
+          Iniciar GreenHub
         </button>
       </div>
     </nav>

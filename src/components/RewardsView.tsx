@@ -98,12 +98,12 @@ export default function RewardsView({ state, onRedeemReward }: RewardsViewProps)
         {/* Dynamic credit balance widget */}
         <div className="glass-panel p-6 rounded-2xl w-full md:w-auto min-w-[325px] border border-emerald-500/20 relative overflow-hidden group shadow-[0_0_20px_rgba(16,185,129,0.1)]">
           <div className="absolute -right-8 -top-8 w-28 h-28 bg-emerald-500/10 rounded-full blur-2xl group-hover:bg-emerald-500/15 transition-all" />
-          <p className="text-emerald-500 text-[10px] font-bold uppercase tracking-[0.2em] mb-2">Tus Eco-Créditos</p>
+          <p className="text-emerald-500 text-[10px] font-bold uppercase tracking-[0.2em] mb-2">Tu Saldo COP</p>
           <div className="flex items-baseline gap-2">
             <span className="text-5xl font-display font-black text-white tracking-tight">
               {currentCredits.toLocaleString()}
             </span>
-            <span className="text-emerald-400 font-display font-extrabold text-lg">EC</span>
+            <span className="text-emerald-400 font-display font-extrabold text-lg">COP</span>
           </div>
 
           {/* Level slider */}
@@ -118,7 +118,7 @@ export default function RewardsView({ state, onRedeemReward }: RewardsViewProps)
 
           <p className="text-slate-500 text-[10px] sm:text-xs mt-3 flex justify-between">
             <span>Explorador Eco</span>
-            <span>Próximo nivel: Protector del Bosque (15,000 EC)</span>
+            <span>Próximo nivel: Protector del Bosque (15.000 COP)</span>
           </p>
         </div>
       </header>
@@ -162,7 +162,7 @@ export default function RewardsView({ state, onRedeemReward }: RewardsViewProps)
                   onClick={() => handleRedeemClick(item)}
                   className="bg-emerald-500 text-slate-950 font-display font-bold px-6 py-3 rounded-xl hover:shadow-[0_0_20px_rgba(16,185,129,0.4)] transition-all active:scale-95 text-xs text-center"
                 >
-                  Canjear Puntos ({item.cost.toLocaleString()} EC)
+                  Canjear ({item.cost.toLocaleString()} COP)
                 </button>
                 <div className="text-slate-400 text-xs flex items-center gap-1.5 font-semibold">
                   <Users className="w-4 h-4 text-emerald-400" />
@@ -197,7 +197,7 @@ export default function RewardsView({ state, onRedeemReward }: RewardsViewProps)
               <span className={`font-display font-black text-sm sm:text-base ${
                 item.accentColor === 'cyan' ? 'text-cyan-400' : 'text-purple-400'
               }`}>
-                {item.cost.toLocaleString()} EC
+                {item.cost.toLocaleString()} COP
               </span>
               <button 
                 onClick={() => handleRedeemClick(item)}
@@ -244,7 +244,7 @@ export default function RewardsView({ state, onRedeemReward }: RewardsViewProps)
               Camino a la Maestría Ambiental
             </h3>
             <p className="text-slate-400 text-sm max-w-xl mb-6">
-              Estás a solo <span className="text-emerald-400 font-bold">{pointsToNextLevel.toLocaleString()} Eco-Créditos</span> de desbloquear el nivel 'Protector del Bosque', el cual te otorga un 15% extra de créditos por cada acción de reciclaje.
+              Estás a solo <span className="text-emerald-400 font-bold">{pointsToNextLevel.toLocaleString()} COP</span> de desbloquear el nivel 'Protector del Bosque', el cual te otorga un 15% extra de créditos por cada acción de reciclaje.
             </p>
             <div className="flex flex-wrap justify-center lg:justify-start gap-3">
               <div className="glass-panel px-4 py-2 rounded-full border border-white/5 flex items-center gap-2">
@@ -303,7 +303,7 @@ export default function RewardsView({ state, onRedeemReward }: RewardsViewProps)
               </h4>
 
               <p className="text-slate-400 text-xs mb-6 max-w-xs mx-auto">
-                Se han descontado <strong>{successRedeemModal.reward.cost.toLocaleString()} EC</strong> de tu balanza. Presenta este cupón en el punto oficial para redimir tu beneficio:
+                Se han descontado <strong>{successRedeemModal.reward.cost.toLocaleString()} COP</strong> de tu saldo. Presenta este cupón en el punto oficial para redimir tu beneficio:
               </p>
 
               {/* Coupon ticket code */}

@@ -34,7 +34,7 @@ export const INITIAL_EVENTS: EcoEvent[] = [
 export const INITIAL_REWARDS: RewardItem[] = [
   {
     id: 'rew-1',
-    title: 'Tree Planting Initiatives',
+    title: 'Siembra de Árboles en la Amazonía',
     desc: 'Planta un árbol en la Amazonía colombiana bajo tu nombre. Recibe coordenadas GPS y un certificado NFT de impacto ambiental.',
     cost: 5000,
     category: 'Mundial',
@@ -45,7 +45,7 @@ export const INITIAL_REWARDS: RewardItem[] = [
   },
   {
     id: 'rew-2',
-    title: 'Premium Public Transport',
+    title: 'Transporte Público Premium',
     desc: 'Pase mensual ilimitado para transporte eléctrico urbano. Incluye acceso prioritario y red de carga para micromovilidad.',
     cost: 2500,
     category: 'Movilidad',
@@ -55,7 +55,7 @@ export const INITIAL_REWARDS: RewardItem[] = [
   },
   {
     id: 'rew-3',
-    title: 'Sustainable Brand Discounts',
+    title: 'Descuentos en Marcas Sostenibles',
     desc: 'Obtén un 40% de descuento en marcas certificadas B-Corp. Válido en indumentaria, tecnología y alimentación orgánica.',
     cost: 1200,
     category: 'Descuentos',
@@ -75,7 +75,7 @@ export const INITIAL_REWARDS: RewardItem[] = [
   },
   {
     id: 'rew-5',
-    title: 'Energy Optimization Kit',
+    title: 'Kit de Optimización de Energía',
     desc: 'Kit de sensores inteligentes para optimizar el consumo eléctrico de tu hogar mediante IA predictiva.',
     cost: 6500,
     category: 'Hogar',
